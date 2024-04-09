@@ -77,7 +77,7 @@ PODS:
     - FBLazyVector (= 0.73.0-rc.8)
     - RCTRequired (= 0.73.0-rc.8)
     - React-Core (= 0.73.0-rc.8)
-  - ReachabilitySwift (5.0.0)
+  - ReachabilitySwift (5.2.1)
   - React (0.73.0-rc.8):
     - React-Core (= 0.73.0-rc.8)
     - React-Core/DevSupport (= 0.73.0-rc.8)
@@ -1315,7 +1315,7 @@ SPEC CHECKSUMS:
   RCT-Folly: 7169b2b1c44399c76a47b5deaaba715eeeb476c0
   RCTRequired: f5be1cb85731ea1aaf4c191a911c1200a7abd467
   RCTTypeSafety: f2902a2450407df6a44f73a5b49f6c03382b55a7
-  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  ReachabilitySwift: 5ae15e16814b5f9ef568963fb2c87aeb49158c66
   React: 090a309d2a81f8e3de62c85ba166c4090f22a25a
   React-callinvoker: 3188ea8a680ebf4889fe4cc3d2fb610e5ea8df8d
   React-Codegen: 7fda6307a5d0fffe18b459541b290930c240d4c5
