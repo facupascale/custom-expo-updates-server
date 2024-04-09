@@ -13,7 +13,7 @@
     },
     "runtimeVersion": "1",
     "updates": {
-      "url": "66.97.34.155:3000/api/manifest",
+      "url": "http://66.97.34.155:3000/api/manifest",
       "enabled": true,
       "fallbackToCacheTimeout": 30000,
       "codeSigningCertificate": "./code-signing/certificate.pem",
