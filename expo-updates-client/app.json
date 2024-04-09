@@ -11,11 +11,11 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "runtimeVersion": "1",
+    "runtimeVersion": "1.0.1",
     "updates": {
       "url": "http://66.97.34.155:3000/api/manifest",
       "enabled": true,
-      "fallbackToCacheTimeout": 30000,
+      "fallbackToCacheTimeout": 0,
       "codeSigningCertificate": "./code-signing/certificate.pem",
       "codeSigningMetadata": {
         "keyid": "main",
