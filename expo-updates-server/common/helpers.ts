@@ -102,7 +102,7 @@ export async function createRollBackDirectiveAsync(updateBundlePath: string) {
     return {
       type: 'rollBackToEmbedded',
       parameters: {
-        commitTime: new Date(rollbackFileStat.birthtime).toISOString(),
+        commitTime: new Date(rollbackFileStat.ctime).toISOString(),
       },
     };
   } catch (error) {
@@ -131,7 +131,7 @@ export async function getMetadataAsync({
 
     return {
       metadataJson,
-      createdAt: new Date(metadataStat.birthtime).toISOString(),
+      createdAt: new Date(metadataStat.ctime).toISOString(),
       id: createHash(updateMetadataBuffer, 'sha256', 'hex'),
     };
   } catch (error) {
