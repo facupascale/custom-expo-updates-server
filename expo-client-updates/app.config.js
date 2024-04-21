@@ -1,12 +1,13 @@
 const commonConfig = {
   expo: {
+    version: "1.0.0",
+    runtimeVersion: "1",
     plugins: ["expo-build-properties"],
     extra: {
       eas: {
         projectId: "e8a8a300-83dc-4b8f-b701-3ae6366751ed",
       },
     },
-    slug: "com.test.updates",
     ios: {
       bundleIdentifier: "com.test.updates",
       infoPlist: {
