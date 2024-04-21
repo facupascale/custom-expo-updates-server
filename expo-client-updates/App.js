@@ -24,7 +24,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>FUNCIONO</Text>
+      <Text>FUNCIONO EN IOS Y ANDROID</Text>
       <Text>{Updates.isAvailable ? "true" : "false"}</Text>
       <Image source={require("./assets/favicon.png")} />
       <StatusBar style="auto" />
