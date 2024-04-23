@@ -9,7 +9,6 @@ done
 # cd ../expo-updates-server
 mkdir -p updates/$directory
 rm -rf updates/$directory/
-cp -r ../expo-client-updates/dist/ updates/$directory
+cp -r ../open-test/dist/ updates/$directory
 
 node ./scripts/exportClientExpoConfig.js >updates/$directory/expoConfig.json
-
